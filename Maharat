@@ -1,0 +1,34 @@
+def add(a, b):
+      return a + b
+result = add(3, 5)  # نتیجه: ۸
+
+count = 0
+  while count < 5:
+      print(count)
+      count += 1
+for i in range(5):  # چاپ اعداد ۰ تا ۴
+      print(i)
+
+score = 85
+  if score >= 90:
+      print("A")
+  elif score >= 80:
+      print("B")
+  else:
+      print("C")
+
+fruits = ["سیب", "موز", "پرتقال"]
+#append for adding
+
+student = {"name": "آرش", "age": 14, "grade": "نهم"}
+
+try:
+      num = int(input("عدد وارد کنید: "))
+  except ValueError:
+      print("ورودی نامعتبر است!")
+
+with open("file.txt", "r") as file:
+      content = file.read()
+
+with open("file.txt", "w") as file:
+      file.write("متن جدید")
